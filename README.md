@@ -54,9 +54,7 @@ ng e2e
 
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
-## Additional Resources
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
-=======
+
 # todo-app-frontend
-Temporary public repo of Angular front-end while I do maintenance on backend/testing issues
+November 4th, 2025 8:34AM Update: This is a temporary public repo of my To-Do app's Angular front-end while I do maintenance on backend/testing issues. There was an issue with JDBC, which I suspect might be caused by the conflicting java versions I have installed in my Linux machine. For the sake of polish, I have taken the front-end files for public showing while I research a solution.
