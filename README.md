@@ -1,3 +1,15 @@
+# Stack
+Angular + Springboot + SQL
+
+# Temporary Public Repo While I Do Some Fixes!!!
+
+November 4th, 2025 8:34AM Update: This is a temporary public repo of my To-Do app's Angular front-end while I do maintenance on backend/testing issues that occured this morning. There was an issue with JDBC, which I suspect might be caused by the conflicting java versions I have installed in my Linux machine. For the sake of polish, I have taken the front-end files for public showing while I research a solution.
+
+Please check back for updates! 
+
+# A Simple To-Do List App
+
+
 # FirstNgApp
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.3.
@@ -54,9 +66,3 @@ ng e2e
 
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
 
-
-
-# todo-app-frontend
-November 4th, 2025 8:34AM Update: This is a temporary public repo of my To-Do app's Angular front-end while I do maintenance on backend/testing issues that occured this morning. There was an issue with JDBC, which I suspect might be caused by the conflicting java versions I have installed in my Linux machine. For the sake of polish, I have taken the front-end files for public showing while I research a solution.
-
-Please check back for updates! 
