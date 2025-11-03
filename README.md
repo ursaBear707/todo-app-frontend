@@ -60,4 +60,3 @@ For more information on using the Angular CLI, including detailed command refere
 =======
 # todo-app-frontend
 Temporary public repo of Angular front-end while I do maintenance on backend/testing issues
->>>>>>> 70c3bb2b5e68a91109b01b23acc1e0e8e5a20f29
