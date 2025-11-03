@@ -3,12 +3,19 @@ Angular + Springboot + SQL
 
 # Temporary Public Repo While I Do Some Fixes!!!
 
-November 4th, 2025 8:34AM Update: This is a temporary public repo of my To-Do app's Angular front-end while I do maintenance on backend/testing issues that occured this morning. There was an issue with JDBC, which I suspect might be caused by the conflicting java versions I have installed in my Linux machine. For the sake of polish, I have taken the front-end files for public showing while I research a solution.
+November 4th, 2025 8:34AM Update: This is a temporary public repo of my To-Do app's Angular front-end while I do maintenance on backend/testing issues that occured this morning. There was an issue with JDBC, which I suspect might be caused by the conflicting java versions I have installed in my Linux machine. For the sake of polish, I have taken the front-end files for public showing while I research a solution. An external API call populates the data in the meantime while SQl is disconnected.
+
+This is a simple to-do list app that allows the user to view items on their todo list and check things off. Very simple functionality, made primarily to practice unit and integration testing.
 
 Please check back for updates! 
 
-# A Simple To-Do List App
+# Fuctionality
 
+- Front-end: Display a list of to-do list items (the items will be retrieved from either an external API or from the mySQL db)
+- Back-end:
+  - Created a database of to-do list items (item title, item id, completion (boolean)) in mySQL CLI via my Linux terminal
+  - Created Java classes to do calls
+- Testing
 
 # FirstNgApp
 
