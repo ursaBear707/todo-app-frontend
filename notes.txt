@@ -1,0 +1,11 @@
+ERROR ɵNotFound: NG0201: No provider found for `_HttpClient`. Source: Environment Injector. Path: _TodosService -> _HttpClient. Find more at https://v20.angular.dev/errors/NG0201
+    at createRuntimeError (http://localhost:4200/@fs/home/user_name/first-ng-app/.angular/cache/20.3.7/first-ng-app/vite/deps/chunk-Z2AVQYTL.js?v=fa407fe1:1119:17)
+    at NullInjector.get (http://localhost:4200/@fs/home/user_name/first-ng-app/.angular/cache/20.3.7/first-ng-app/vite/deps/chunk-Z2AVQYTL.js?v=fa407fe1:1406:21)
+    at R3Injector.get (http://localhost:4200/@fs/home/user_name/first-ng-app/.angular/cache/20.3.7/first-ng-app/vite/deps/chunk-Z2AVQYTL.js?v=fa407fe1:1765:27)
+    at R3Injector.get (http://localhost:4200/@fs/home/user_name/first-ng-app/.angular/cache/20.3.7/first-ng-app/vite/deps/chunk-Z2AVQYTL.js?v=fa407fe1:1765:27)
+    at R3Injector.retrieve (http://localhost:4200/@fs/home/user_name/first-ng-app/.angular/cache/20.3.7/first-ng-app/vite/deps/chunk-Z2AVQYTL.js?v=fa407fe1:1670:19)
+    at injectInjectorOnly (http://localhost:4200/@fs/home/user_name/first-ng-app/.angular/cache/20.3.7/first-ng-app/vite/deps/chunk-Z2AVQYTL.js?v=fa407fe1:1194:35)
+    at ɵɵinject (http://localhost:4200/@fs/home/user_name/first-ng-app/.angular/cache/20.3.7/first-ng-app/vite/deps/chunk-Z2AVQYTL.js?v=fa407fe1:1206:59)
+    at inject2 (http://localhost:4200/@fs/home/user_name/first-ng-app/.angular/cache/20.3.7/first-ng-app/vite/deps/chunk-Z2AVQYTL.js?v=fa407fe1:1215:10)
+    at <instance_members_initializer> (http://localhost:4200/chunk-7623WWAO.js:9:10)
+    at new _TodosService (http://localhost:4200/chunk-7623WWAO.js:26:14)
