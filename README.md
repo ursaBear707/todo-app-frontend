@@ -8,6 +8,9 @@ Angular + Springboot + SQL
 
 Please check back for updates! 
 
+***November 21st, 2025 9:46AM Update:***
+>Fixed!...ish? Anyway, the backend can now be connected to the front-end. I have removed the external API call and put in a call to my Springboot server. I have a simple test on the front-end to check on port numbers, so maybe the issues won't arise again?
+
 # Fuctionality
 This is a simple to-do list app that allows the user to view items on their todo list and check things off. Very simple functionality, made primarily to practice unit and integration testing.
 
