@@ -6,8 +6,6 @@ Angular + Springboot + SQL
 ***November 4th, 2025 8:34AM Update:***
 >This is a temporary public repo of my To-Do app's Angular front-end while I do maintenance on backend/testing issues that occured this morning. There was an issue with JDBC, which I suspect might be caused by the conflicting java versions I have installed in my Linux machine. For the sake of polish, I have taken the front-end files for public showing while I research a solution. An external API call populates the data in the meantime while SQL is disconnected.
 
-Please check back for updates! 
-
 ***November 21st, 2025 9:46AM Update:***
 >Fixed!...ish? Anyway, the backend can now be connected to the front-end. I have removed the external API call and put in a call to my Springboot server. I have a simple test on the front-end to check on port numbers, so maybe the issues won't arise again?
 
