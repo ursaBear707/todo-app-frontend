@@ -3,6 +3,8 @@ import { TodosService } from '../services/todos';
 import { Todo } from '../model/todo.type';
 import { catchError } from 'rxjs';
 
+import { CommonModule } from '@angular/common'; // Often needed for template directives
+
 @Component({
   selector: 'app-todos',
   imports: [],
@@ -21,15 +23,17 @@ export class Todos implements OnInit {
   ngOnInit(): void {
 
     this.todoService
-    .getTodosFromApi()
-    .pipe(
-      catchError((err) => {
-        console.log(err);
-        throw err;
+    .getTodos() // 👈 Use the actual method name from your service
+      .pipe(
+        catchError((err) => {
+          console.error("Error fetching todos from Spring Boot:", err);
+          // Handle the error (e.g., display a user message)
+          throw err;
       })
     )
     .subscribe((todos) => {
       this.todoItems.set(todos);
     });
   }
+
 }
